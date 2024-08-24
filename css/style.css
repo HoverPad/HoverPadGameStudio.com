@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f9e6; /* Светло-зелёный фон */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Контейнер для основной информации */
+.container {
+    background-color: #ffffff;
+    border: 5px solid #007bff; /* Синий цвет для границы */
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff; /* Синий цвет для заголовка */
+}
+
+/* Абзацы */
+p {
+    margin: 10px 0;
+}
+
+/* Информация для контакта */
+.contact-info {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Кнопка чата */
+.chat-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ffc107; /* Жёлтый цвет для кнопки */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Эффект при наведении на кнопку */
+.chat-button:hover {
+    background-color: #e0a800; /* Тёмно-жёлтый цвет при наведении */
+}
+
+/* Линия под заголовком и над кнопкой */
+.line {
+    height: 5px;
+    background-color: #007bff; /* Синий цвет для линии */
+    margin: 20px 0;
+}

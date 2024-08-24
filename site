@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты компании по разработке игр</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f9e6; /* Светло-зелёный фон */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border: 5px solid #007bff; /* Синий цвет */
+            border-radius: 15px;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #007bff; /* Синий цвет */
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .contact-info {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .chat-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #ffc107; /* Жёлтый цвет */
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .chat-button:hover {
+            background-color: #e0a800; /* Тёмно-жёлтый цвет */
+        }
+
+        .line {
+            height: 5px;
+            background-color: #007bff; /* Синий цвет */
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Контакты компании по разработке игр</h1>
+        <div class="line"></div>
+        <div class="contact-info">
+            <p><strong>Название компании:</strong> GameDev Studio</p>
+            <p><strong>Email:</strong> contact@gamedevstudio.com</p>
+            <p><strong>Телефон:</strong> +7 123 456 7890</p>
+            <p><strong>Адрес:</strong> ул. Игровая, д. 1, Москва, Россия</p>
+        </div>
+        <div class="line"></div>
+        <a href="#" class="chat-button">Связаться через чат</a>
+    </div>
+
+    <script>
+        document.querySelector('.chat-button').addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Мини-чат в разработке! Пожалуйста, свяжитесь через email.');
+        });
+    </script>
+</body>
+</html>
